@@ -1,4 +1,4 @@
-Simple HeatMap Using GPT-2 
+Simple HeatMap Using GPT-2 and MatPlotLib
 ```markdown
 # Visualization Tools for Self-Attention Mechanisms
 
