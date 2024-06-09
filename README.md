@@ -1,5 +1,4 @@
-Sure, here is the entire content in one copyable message:
-
+Simple HeatMap Using GPT-2 
 ```markdown
 # Visualization Tools for Self-Attention Mechanisms
 
@@ -43,16 +42,11 @@ input_tokens = tokenizer.convert_ids_to_tokens(inputs["input_ids"].squeeze().tol
 plot_attention_heatmap(attention, input_tokens)
 ```
 
-![Resultant HeatMap](heatmap.png)
-
 ## BertViz
 [BertViz](https://github.com/jessevig/bertviz)
 - Allows for head, model, and neuron view
 - Seems more applicable to NLP
 
-![Head View](head%20view.png)
-
-![Model View](Model%20View.png)
 
 ```python
 from transformers import GPT2Tokenizer, GPT2Model, utils
@@ -87,7 +81,6 @@ display.display(html_model_view)
 ```
 
 ## AttentionViz
-![AttentionViz](attentionViz.png)
 [AttentionViz](https://github.com/catherinesyeh/attention-viz?tab=readme-ov-file)
 - Matrix view to view all attention heads
 - Single view to seek each attention head
@@ -98,8 +91,6 @@ display.display(html_model_view)
 [Attention by Matt Neary](https://github.com/mattneary/attention?tab=readme-ov-file)
 - Visualization using normalized means (sigmoid function)
 - Applicable to NLP
-
-![Normalized using Sigmoid Function](matt.png)
 
 ## More Attention Visualization Libraries Using Heatmaps
 - [Attention Transfer](https://github.com/szagoruyko/attention-transfer/tree/master)
