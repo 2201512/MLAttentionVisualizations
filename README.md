@@ -105,5 +105,3 @@ display.display(html_model_view)
 - [TensorBoard for TensorFlow](https://github.com/tensorflow/tensorboard)
 - [Captum for PyTorch](https://github.com/pytorch/captum)
 ```
-
-You can copy this entire message and paste it into a `README.md` file in your GitHub repository. This will ensure that the content is formatted correctly on GitHub.
